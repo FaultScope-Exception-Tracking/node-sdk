@@ -35,10 +35,10 @@
 npm install @faultscope/node
 
 # From local monorepo (during development)
-npm install ./platform/sdk/node
+npm install ./sdk/node-sdk
 
 # Or link globally for testing
-cd platform/sdk/node && npm link
+cd sdk/node-sdk && npm link
 cd your-project && npm link @faultscope/node
 ```
 
@@ -577,7 +577,7 @@ FaultScopeBrowser.flush();
 
 ```bash
 # 1. Build and link the SDK globally
-cd platform/sdk/node
+cd sdk/node-sdk
 npm run build
 npm link
 
@@ -586,7 +586,7 @@ cd your-nextjs-project
 npm link @faultscope/node
 
 # 3. After making changes to the SDK, rebuild
-cd platform/sdk/node
+cd sdk/node-sdk
 npm run build   # or: npm run dev (watch mode)
 ```
 
