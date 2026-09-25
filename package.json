@@ -73,6 +73,14 @@
   ],
   "author": "FaultScope",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaultScope-Exception-Tracking/node-sdk.git"
+  },
+  "homepage": "https://github.com/FaultScope-Exception-Tracking/node-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/FaultScope-Exception-Tracking/node-sdk/issues"
+  },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.0.0",
